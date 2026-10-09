@@ -13,7 +13,7 @@ class Settings(BaseSettings):
 
     # LLM
     google_api_key: str = ""
-    parser_model: str = "gemini-2.5-flash-lite"
+    parser_model: str = "gemini-3.5-flash-lite"
     groq_api_key: str = ""
 
     # Infra
